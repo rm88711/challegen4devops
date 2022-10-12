@@ -20,6 +20,7 @@ USER jenkins
 Abrir o docker desktop.
 
 Abrir o Power Shell entrar na pasta onde esta o Dockerfile.
+
 Exemplo :
 
 ```
