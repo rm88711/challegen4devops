@@ -46,7 +46,7 @@ docker run --name jenkins -it -d -p 8080:8080 -p 50000:50000 -v /c/users/kleber.
 
 ```
 
-Depois disso o Jenkins demora entre 5 e 10 minutos para iniciar totalmente 
+Depois disso o Jenkins demora entre 5 e 10 minutos para iniciar totalmente.
 
 Endereço do Jenkins Local:
 
