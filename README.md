@@ -37,3 +37,11 @@ docker build . -t jenkins
 
 ```
 
+Executar o docker run para criar um container, lembre-se de criar um volume com o endereço do jenkins home para poder acessa a key depois: 
+
+
+```
+
+docker run --name jenkins -it -d -p 8080:8080 -p 50000:50000 -v /c/users/kleber.monteiro/projetos/fiap/jenkins/jenkins_home:/var/jenkins_home jenkins
+
+```
