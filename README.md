@@ -2,6 +2,8 @@
 
 ## Jenkins Docker
 
+referencia :https://octopus.com/blog/jenkins-docker-install-guide
+
 Criar um Dockerfile com a instrução:
 
 ```
