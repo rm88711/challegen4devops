@@ -70,8 +70,7 @@ RUN apt update && \
     curl -sSfL https://apt.octopus.com/public.key | apt-key add - && \
     sh -c "echo deb https://apt.octopus.com/ stable main > /etc/apt/sources.list.d/octopus.com.list" && \
     apt update && apt install -y octopuscli && \
-    apt -y install maven && \
-    apt -y install azure-cli
+    apt -y install maven
 USER jenkins
 
 ```
